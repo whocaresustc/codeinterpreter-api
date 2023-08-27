@@ -103,7 +103,7 @@ class CodeInterpreterSession:
         ]
 
     def _choose_llm(
-        self, model: str = "gpt-4", openai_api_key: Optional[str] = None, **kwargs
+        self, model: str = "gpt-3.5-turbo", openai_api_key: Optional[str] = None, **kwargs
     ) -> BaseChatModel:
         if "gpt" in model:
             openai_api_key = (
