@@ -43,6 +43,8 @@ export OPENAI_API_KEY=your_azure_openai_api_key
 export DEPLOYMENT_NAME=your_deployment_name
 ```
 
+Check if you have access to gpt-4. If not, update the model parameter in function "def _choose_llm" in codeinterpreter/session.py from gpt-4 to gpt-3.5-turbo. 
+
 Remember to replace the placeholders with your actual API keys and other required information.
 
 ```python
